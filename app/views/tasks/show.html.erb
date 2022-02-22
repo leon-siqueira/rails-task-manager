@@ -1,0 +1,4 @@
+<p><%= @task.details %></p>
+<h2><%= @task.title %></h2>
+<p><%= @task.completed ? 'This task is completed :)' : 'This task is not completed yet' %></p>
+<%= link_to "Go back to the task list", '/tasks' %>
